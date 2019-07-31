@@ -1,0 +1,28 @@
+# +--------------------+
+# |   BOUNCY  BLOCKS   |
+# |       v1.0.0       |
+# |     by arctfoxx    |
+# +--------------------+
+
+# Each Bouncy Block Should have it's own configuration
+
+# name (Name, does not matter)
+#   blocks [] (All the blocks this configuration should apply to)
+#   worlds [] (Worlds that this configuration should apply to, '*' = all)
+#   distance-min (Minimum blocks to travel forward)
+#   distance-max (Maximum blocks to travel forward)
+#   height-min (Minimum blocks to travel upward)
+#   height-max (Maximum blocks to travel upward)
+
+# +-----------------+
+# |  CONFIGURATION  |
+# +-----------------+
+
+blocks:
+  default:
+    blocks: [ 'SPONGE' ]
+    worlds: [ '*' ]
+    distance-min: 0
+    distance-max: 0
+    height-min: 40
+    height-max: 50

@@ -1,0 +1,15 @@
+name: 'BouncyBlocks'
+description: 'Make blocks bounce!'
+version: '1.0.0'
+main: 'io.arct.bouncyblocks.BouncyBlocks'
+
+permissions:
+  bouncyblocks.*:
+    description: 'All BouncyBlocks permissions'
+    children:
+      - 'bouncyblocks.use'
+    default: 'op'
+
+  bouncyblocks.use:
+    description: 'Allows usage of Bouncy Blocks'
+    default: 'true'
